@@ -1,4 +1,6 @@
 from fastmcp import FastMCP
+from kiwipiepy import Kiwi
+from collections import Counter
 
 # 1. 서버 인스턴스 생성
 mcp = FastMCP("kiwi-mcp-http")
